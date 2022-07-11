@@ -4,15 +4,15 @@ const katex = require("rehype-katex");
 const internetProfiles = {
   linkedin: {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/evanitsg/",
+    href: "https://google.com",
   },
   github: {
     label: "GitHub",
-    href: "https://github.com/digipie",
+    href: "https://github.com/pandaslo",
   },
   email: {
     label: "Email",
-    href: "mailto:evan.it.sg@gmail.com",
+    href: "mailto:info@pandaslo.tk",
   },
   blog: {
     label: "Blog",
@@ -37,15 +37,15 @@ const internetProfiles = {
 };
 
 module.exports = {
-  title: "Evan Tay",
+  title: "Nik",
   tagline:
-    "I am a Software Engineer and Cloud Engineer passionate about solving Meaningful Problems.",
-  url: "https://evantay.com",
+    "DESCRIPTION",
+  url: "https://pandaslo.tk",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/logo.png",
-  organizationName: "digipie",
-  projectName: "kaya-folio",
+  organizationName: "PandaSLO",
+  projectName: "pandaweb",
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -54,9 +54,9 @@ module.exports = {
     },
     navbar: {
       hideOnScroll: true,
-      title: "Evan Tay",
+      title: "Nik",
       logo: {
-        alt: "Evan Tay",
+        alt: "Nik",
         src: "img/logo.png",
         href: "https://evantay.com",
         target: "_self",
@@ -100,7 +100,7 @@ module.exports = {
         },
       ],
       // I built this website for my own personal use, but you are free to use it so long as you credit me. You can do so by linking back to evantay.com :)
-      copyright: `<a href="https://evantay.com">Design by Evan Tay</a> • <a href="https://github.com/DigiPie/kaya-folio/commits/main">Updated ${new Date().toLocaleDateString()}</a>`,
+     // copyright: `<a href="https://evantay.com">Design by Evan Tay</a> • <a href="https://github.com/DigiPie/kaya-folio/commits/main">Updated ${new Date().toLocaleDateString()}</a>`,
     },
   },
   presets: [

@@ -33,10 +33,10 @@ function Home() {
           style={{ minHeight: bannerHeight, display: isLoading ? "none" : "block" }}
         >
           <p>Hi, my name is</p>
-          <h1 className="colorSuccess">Evan Tay.</h1>
+          <h1 className="colorSuccess">Nik.</h1>
           <p>
-            I am a <span className="colorWarning">Software Engineer</span> and{" "}
-            <span className="colorDanger">Cloud Engineer</span> passionate about
+            I am a <span className="colorWarning">Game Enthusiast</span> and{" "}
+            <span className="colorDanger">cooool</span> passionate about
             solving Meaningful Problems.
           </p>
           <SocialLinks />
@@ -59,8 +59,8 @@ function Home() {
           <div class={styles.aboutText}>
             <h2>Hello, </h2>
             <p>
-              I am a Full Stack Software Engineer and Certified Cloud Engineer
-              based in Singapore.
+              I am a Full Stack Game Enthusiast
+              based in Slovenia.
             </p>
             <p>
               I love building cool, fun and meaningful things with tech, whether
@@ -69,21 +69,6 @@ function Home() {
                 websites, applications or games
               </Link>
               .
-            </p>
-            <p>
-              I graduated from the{" "}
-              <a href="https://www.comp.nus.edu.sg/">
-                National University of Singapore
-              </a>{" "}
-              with a{" "}
-              <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/">
-                Bachelor of Computing in Computer Science
-              </a>{" "}
-              in Winter 2020.
-            </p>
-            <p>
-              I am currently working at <a href="https://padlet.com">Padlet</a>{" "}
-              as a Full Stack and Support Engineer.
             </p>
             <p>
               You can read more <Link to={useBaseUrl("/about")}>about me</Link>{" "}

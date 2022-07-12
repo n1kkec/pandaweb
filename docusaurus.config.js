@@ -46,7 +46,7 @@ module.exports = {
       logo: {
         alt: "Nik",
         src: "img/logo.png",
-        href: "https://evantay.com",
+        href: "https://pandaslo.tk.com",
         target: "_self",
       },
       items: [
@@ -59,11 +59,6 @@ module.exports = {
         },
         { to: "projects/", label: "Projects", position: "right" },
         { to: "about/", label: "About", position: "right" },
-        {
-          href: "https://evantay.com/pdf/resume.pdf",
-          label: "Resume",
-          position: "right",
-        },
       ],
     },
     footer: {
@@ -87,8 +82,6 @@ module.exports = {
           ],
         },
       ],
-      // I built this website for my own personal use, but you are free to use it so long as you credit me. You can do so by linking back to evantay.com :)
-     // copyright: `<a href="https://evantay.com">Design by Evan Tay</a> • <a href="https://github.com/DigiPie/kaya-folio/commits/main">Updated ${new Date().toLocaleDateString()}</a>`,
     },
   },
   presets: [

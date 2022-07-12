@@ -2,10 +2,6 @@ const math = require("remark-math");
 const katex = require("rehype-katex");
 
 const internetProfiles = {
-  linkedin: {
-    label: "LinkedIn",
-    href: "https://google.com",
-  },
   github: {
     label: "GitHub",
     href: "https://github.com/pandaslo",
@@ -18,10 +14,6 @@ const internetProfiles = {
     label: "Blog",
     to: "blog",
   },
-  docs: {
-    label: "Documentation",
-    to: "docs",
-  },
   projects: {
     label: "Projects",
     to: "projects",
@@ -29,10 +21,6 @@ const internetProfiles = {
   about: {
     label: "About",
     to: "about",
-  },
-  resume: {
-    label: "Resume",
-    href: "https://evantay.com/pdf/resume.pdf",
   },
 };
 

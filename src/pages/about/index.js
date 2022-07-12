@@ -28,46 +28,10 @@ function About() {
           <div class={styles.aboutText}>
             <h2>Hello,</h2>
             <p>
-              I am Evan, a Full Stack Software Engineer and Certified Cloud
-              Engineer based in Singapore.
-            </p>
+             I am a <span className="colorWarning">Game Enthusiast</span> and{" "}
+            <span className="colorDanger">cooool</span> passionate about
+            solving Meaningful Problems.
             <p>
-              I love building cool, fun and meaningful things with tech, whether
-              that be{" "}
-              <Link to={useBaseUrl("projects/")}>
-                websites, applications or games
-              </Link>
-              . To me, coding is the closest thing to magic we have in this
-              world.
-            </p>
-            <p>
-              I was a{" "}
-              <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/">
-                Computer Science major
-              </a>{" "}
-              at the{" "}
-              <a href="https://www.comp.nus.edu.sg/">
-                National University of Singapore
-              </a>{" "}
-              from 2017 to 2020. During my time there, I was the Deputy Head of
-              Technology at{" "}
-              <a href="https://dscnustech.github.io/">
-                Google Developer Student Club NUS
-              </a>
-              , and the President of the{" "}
-              <a href="https://www.instagram.com/nusskating/">
-                NUS Skating Club
-              </a>
-              . I was also a{" "}
-              <a href="https://github.com/DigiPie/CS1010-Tutorial-C09">
-                Teaching Assistant
-              </a>{" "}
-              for Programming Methodology and Networking courses.
-            </p>
-            <p>
-              I am currently working at <a href="https://padlet.com">Padlet</a>{" "}
-              as a Full Stack and Support Engineer.
-            </p>
           </div>
         </div>
         <section className={styles.directory}>

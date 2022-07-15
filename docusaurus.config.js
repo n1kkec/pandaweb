@@ -10,10 +10,6 @@ const internetProfiles = {
     label: "Email",
     href: "mailto:info@pandaslo.tk",
   },
-  blog: {
-    label: "Blog",
-    to: "blog",
-  },
   projects: {
     label: "Projects",
     to: "projects",
@@ -46,11 +42,10 @@ module.exports = {
       logo: {
         alt: "Nik",
         src: "img/logo.png",
-        href: "https://pandaslo.tk.com",
+        href: "https://pandaslo.tk",
         target: "_self",
       },
       items: [
-        { to: "blog/", label: "Blog", position: "left" },
         {
           to: "docs/",
           activeBasePath: "docs",
@@ -73,7 +68,6 @@ module.exports = {
         {
           title: "Discover",
           items: [
-            internetProfiles.blog,
             internetProfiles.projects,
             internetProfiles.about,
           ],
@@ -91,11 +85,6 @@ module.exports = {
           editCurrentVersion: false,
           remarkPlugins: [math],
           rehypePlugins: [katex],
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: "https://github.com/DigiPie/kaya-folio/tree/main/website/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

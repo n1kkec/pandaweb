@@ -31,7 +31,7 @@ function About() {
              I am a <span className="colorWarning">Game Enthusiast</span> and{" "}
             <span className="colorDanger">cooool</span> passionate about
             solving Meaningful Problems.
-            <p>
+            </p>
           </div>
         </div>
         <section className={styles.directory}>

@@ -314,10 +314,6 @@ const projects = [
         name: "GitHub",
         link: "https://github.com/DigiPie/dynalite",
       },
-      {
-        name: "Presentation Slides (PDF)",
-        link: "https://evantay.com/pdf/dynalite.pdf",
-      },
     ],
   },
   {

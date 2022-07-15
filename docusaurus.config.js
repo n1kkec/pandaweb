@@ -66,7 +66,6 @@ module.exports = {
         {
           title: "Connect",
           items: [
-            internetProfiles.linkedin,
             internetProfiles.github,
             internetProfiles.email,
           ],
@@ -75,10 +74,8 @@ module.exports = {
           title: "Discover",
           items: [
             internetProfiles.blog,
-            internetProfiles.docs,
             internetProfiles.projects,
             internetProfiles.about,
-            internetProfiles.resume,
           ],
         },
       ],

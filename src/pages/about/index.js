@@ -19,12 +19,6 @@ function About() {
       </header>
       <main id="main">
         <div className={styles.about}>
-          <div>
-            <img
-              className={styles.aboutProfilePic}
-              src={useBaseUrl("img/profilepic.jpg")}
-            />
-          </div>
           <div class={styles.aboutText}>
             <h2>Hello,</h2>
             <p>
@@ -48,13 +42,6 @@ function About() {
                 </Link>
               </div>
               <div className="pagination-nav__item pagination-nav__item--next">
-                <a
-                  className="pagination-nav__link"
-                  href={useBaseUrl("pdf/resume.pdf")}
-                >
-                  <div className="pagination-nav__sublabel">Download</div>
-                  <div className="pagination-nav__label">My resume</div>
-                </a>
               </div>
             </nav>
           </div>

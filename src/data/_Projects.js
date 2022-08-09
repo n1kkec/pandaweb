@@ -44,6 +44,7 @@ const projects = [
         link: "https://github.com/DigiPie/nodejs-mysql-cloudformation",
       },
     ],
+   },
   }
 
 export default projects;

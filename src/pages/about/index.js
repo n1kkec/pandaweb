@@ -35,10 +35,8 @@ function About() {
               <div className="pagination-nav__item">
                 <Link
                   className="pagination-nav__link"
-                  to={useBaseUrl("projects/")}
                 >
                   <div className="pagination-nav__sublabel">Check out</div>
-                  <div className="pagination-nav__label">My projects</div>
                 </Link>
               </div>
               <div className="pagination-nav__item pagination-nav__item--next">

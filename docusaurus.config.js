@@ -10,10 +10,6 @@ const internetProfiles = {
     label: "Email",
     href: "mailto:info@pandaslo.tk",
   },
-  projects: {
-    label: "Projects",
-    to: "projects",
-  },
   about: {
     label: "About",
     to: "about",
@@ -52,7 +48,6 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        { to: "projects/", label: "Projects", position: "right" },
         { to: "about/", label: "About", position: "right" },
       ],
     },
@@ -68,7 +63,6 @@ module.exports = {
         {
           title: "Discover",
           items: [
-            internetProfiles.projects,
             internetProfiles.about,
           ],
         },

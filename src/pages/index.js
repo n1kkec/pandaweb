@@ -61,14 +61,10 @@ function Home() {
             <p>
               I love building cool, fun and meaningful things with tech, whether
               that be{" "}
-              <Link to={useBaseUrl("projects/")}>
-                websites, applications or games
-              </Link>
               .
             </p>
             <p>
               You can read more <Link to={useBaseUrl("/about")}>about me</Link>{" "}
-              or check out <Link to={useBaseUrl("/projects")}>my projects</Link>{" "}
               if you are interested.
             </p>
           </div>

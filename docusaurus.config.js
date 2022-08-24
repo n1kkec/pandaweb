@@ -24,7 +24,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/logo.png",
-  organizationName: "PandaSLO",
+  organizationName: "PandaDev",
   projectName: "pandaweb",
   themeConfig: {
     colorMode: {

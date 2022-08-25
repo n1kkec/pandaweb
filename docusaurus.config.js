@@ -42,12 +42,6 @@ module.exports = {
         target: "_self",
       },
       items: [
-        {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
-        },
         { to: "about/", label: "About", position: "right" },
       ],
     },
